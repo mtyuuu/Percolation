@@ -1,0 +1,12 @@
+#About question
+1. Add virtual nodes at the top of the first row and the bottom of the last row to support isFull and percolates in constant time.
+2. This solution will cause a back wash issue. Becuase the top and bottom virtual nodes are unioned (in same component)
+So we use two union-find with 1 virtual node each. One is for isFull, one is for percolates.
+
+#About coding
+1. '//' or '/*' must be followed by whitespace.
+2. File shouldn't contains tab characters.
+3. 'if' must be followed by whitespace. 'for' as well.
+4. '{' must be preceded with whitespace.
+5. Typecast must be followed by whitespace.
+6. The local variable should start with a lowercase letter and use camelCase.
